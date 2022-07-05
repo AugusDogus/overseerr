@@ -118,7 +118,7 @@ const TitleCard: React.FC<TitleCardProps> = ({
             src={
               image
                 ? `https://image.tmdb.org/t/p/w300_and_h450_face${image}`
-                : `/images/overseerr_poster_not_found_logo_top.png`
+                : `/images/animarr_poster_not_found_logo_top.png`
             }
             layout="fill"
             objectFit="cover"

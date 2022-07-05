@@ -403,7 +403,7 @@ const CollectionRequestModal: React.FC<RequestModalProps> = ({
                               src={
                                 part.posterPath
                                   ? `https://image.tmdb.org/t/p/w600_and_h900_bestv2${part.posterPath}`
-                                  : '/images/overseerr_poster_not_found.png'
+                                  : '/images/animarr_poster_not_found.png'
                               }
                               alt=""
                               layout="responsive"

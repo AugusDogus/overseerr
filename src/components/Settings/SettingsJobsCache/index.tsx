@@ -27,7 +27,7 @@ const messages: { [messageName: string]: MessageDescriptor } = defineMessages({
   jobsandcache: 'Jobs & Cache',
   jobs: 'Jobs',
   jobsDescription:
-    'Overseerr performs certain maintenance tasks as regularly-scheduled jobs, but they can also be manually triggered below. Manually running a job will not alter its schedule.',
+    'Animarr performs certain maintenance tasks as regularly-scheduled jobs, but they can also be manually triggered below. Manually running a job will not alter its schedule.',
   jobname: 'Job Name',
   jobtype: 'Type',
   nextexecution: 'Next Execution',
@@ -39,7 +39,7 @@ const messages: { [messageName: string]: MessageDescriptor } = defineMessages({
   command: 'Command',
   cache: 'Cache',
   cacheDescription:
-    'Overseerr caches requests to external API endpoints to optimize performance and avoid making unnecessary API calls.',
+    'Animarr caches requests to external API endpoints to optimize performance and avoid making unnecessary API calls.',
   cacheflushed: '{cachename} cache flushed.',
   cachename: 'Cache Name',
   cachehits: 'Hits',

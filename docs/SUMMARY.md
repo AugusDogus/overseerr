@@ -6,29 +6,29 @@
 
 - [Installation](getting-started/installation.md)
 
-## Using Overseerr
+## Using Animarr
 
-- [Settings](using-overseerr/settings/README.md)
-- [Users](using-overseerr/users/README.md)
-- [Notifications](using-overseerr/notifications/README.md)
-  - [Email](using-overseerr/notifications/email.md)
-  - [Web Push](using-overseerr/notifications/webpush.md)
-  - [Discord](using-overseerr/notifications/discord.md)
-  - [Gotify](using-overseerr/notifications/gotify.md)
-  - [LunaSea](using-overseerr/notifications/lunasea.md)
-  - [Pushbullet](using-overseerr/notifications/pushbullet.md)
-  - [Pushover](using-overseerr/notifications/pushover.md)
-  - [Slack](using-overseerr/notifications/slack.md)
-  - [Telegram](using-overseerr/notifications/telegram.md)
-  - [Webhook](using-overseerr/notifications/webhooks.md)
+- [Settings](using-animarr/settings/README.md)
+- [Users](using-animarr/users/README.md)
+- [Notifications](using-animarr/notifications/README.md)
+  - [Email](using-animarr/notifications/email.md)
+  - [Web Push](using-animarr/notifications/webpush.md)
+  - [Discord](using-animarr/notifications/discord.md)
+  - [Gotify](using-animarr/notifications/gotify.md)
+  - [LunaSea](using-animarr/notifications/lunasea.md)
+  - [Pushbullet](using-animarr/notifications/pushbullet.md)
+  - [Pushover](using-animarr/notifications/pushover.md)
+  - [Slack](using-animarr/notifications/slack.md)
+  - [Telegram](using-animarr/notifications/telegram.md)
+  - [Webhook](using-animarr/notifications/webhooks.md)
 
 ## Support
 
 - [Frequently Asked Questions (FAQ)](support/faq.md)
 - [Need Help?](support/need-help.md)
 
-## Extending Overseerr
+## Extending Animarr
 
-- [Reverse Proxy](extending-overseerr/reverse-proxy.md)
-- [Fail2ban](extending-overseerr/fail2ban.md)
-- [Third-Party Integrations](extending-overseerr/third-party.md)
+- [Reverse Proxy](extending-animarr/reverse-proxy.md)
+- [Fail2ban](extending-animarr/fail2ban.md)
+- [Third-Party Integrations](extending-animarr/third-party.md)

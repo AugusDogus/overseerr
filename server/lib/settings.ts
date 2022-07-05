@@ -276,7 +276,7 @@ class Settings {
       vapidPublic: '',
       main: {
         apiKey: '',
-        applicationTitle: 'Overseerr',
+        applicationTitle: 'Animarr',
         applicationUrl: '',
         csrfProtection: false,
         cacheImages: false,
@@ -319,7 +319,7 @@ class Settings {
               ignoreTls: false,
               requireTls: false,
               allowSelfSigned: false,
-              senderName: 'Overseerr',
+              senderName: 'Animarr',
             },
           },
           discord: {

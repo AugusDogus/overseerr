@@ -8,7 +8,7 @@ export interface SettingsContextProps {
 
 const defaultSettings = {
   initialized: false,
-  applicationTitle: 'Overseerr',
+  applicationTitle: 'Animarr',
   applicationUrl: '',
   hideAvailable: false,
   localLogin: true,

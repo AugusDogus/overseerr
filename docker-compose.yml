@@ -1,6 +1,6 @@
 version: '3'
 services:
-  overseerr:
+  animarr:
     build:
       context: .
       dockerfile: Dockerfile.local

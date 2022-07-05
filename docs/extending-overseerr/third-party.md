@@ -6,10 +6,10 @@
 
 - [Organizr](https://organizr.app/), a HTPC/homelab services organizer
 - [Heimdall](https://github.com/linuxserver/Heimdall), an application dashboard and launcher
-- [LunaSea](https://docs.lunasea.app/modules/overseerr), a self-hosted controller for mobile and macOS
-- [Requestrr](https://github.com/darkalfx/requestrr/wiki/Configuring-Overseerr), a Discord chatbot
+- [LunaSea](https://docs.lunasea.app/modules/animarr), a self-hosted controller for mobile and macOS
+- [Requestrr](https://github.com/darkalfx/requestrr/wiki/Configuring-Animarr), a Discord chatbot
 - [Doplarr](https://github.com/kiranshila/Doplarr), a Discord request bot
-- [Overseerr Assistant](https://github.com/RemiRigal/Overseerr-Assistant), a browser extension for requesting directly from TMDb and IMDb
-- [ha-overseerr](https://github.com/vaparr/ha-overseerr), a custom Home Assistant component
+- [Animarr Assistant](https://github.com/RemiRigal/Animarr-Assistant), a browser extension for requesting directly from TMDb and IMDb
+- [ha-animarr](https://github.com/vaparr/ha-animarr), a custom Home Assistant component
 - [OverCLIrr](https://github.com/WillFantom/OverCLIrr), a command-line tool
-- [Overseerr Exporter](https://github.com/WillFantom/overseerr-exporter), a Prometheus exporter
+- [Animarr Exporter](https://github.com/WillFantom/animarr-exporter), a Prometheus exporter

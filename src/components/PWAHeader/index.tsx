@@ -5,7 +5,7 @@ interface PWAHeaderProps {
 }
 
 const PWAHeader: React.FC<PWAHeaderProps> = ({
-  applicationTitle = 'Overseerr',
+  applicationTitle = 'Animarr',
 }) => {
   return (
     <>

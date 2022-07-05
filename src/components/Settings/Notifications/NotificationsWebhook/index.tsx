@@ -289,7 +289,7 @@ const NotificationsWebhook: React.FC = () => {
                     <span>{intl.formatMessage(messages.resetPayload)}</span>
                   </Button>
                   <Link
-                    href="https://docs.overseerr.dev/using-overseerr/notifications/webhooks#template-variables"
+                    href="https://docs.animarr.dev/using-animarr/notifications/webhooks#template-variables"
                     passHref
                   >
                     <Button

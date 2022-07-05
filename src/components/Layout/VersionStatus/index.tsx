@@ -11,8 +11,8 @@ import useSWR from 'swr';
 import { StatusResponse } from '../../../../server/interfaces/api/settingsInterfaces';
 
 const messages = defineMessages({
-  streamdevelop: 'Overseerr Develop',
-  streamstable: 'Overseerr Stable',
+  streamdevelop: 'Animarr Develop',
+  streamstable: 'Animarr Stable',
   outofdate: 'Out of Date',
   commitsbehind:
     '{commitsBehind} {commitsBehind, plural, one {commit} other {commits}} behind',

@@ -158,7 +158,7 @@ const NotificationsLunaSea: React.FC = () => {
                     LunaSeaLink: function LunaSeaLink(msg) {
                       return (
                         <a
-                          href="https://docs.lunasea.app/lunasea/notifications/overseerr"
+                          href="https://docs.lunasea.app/lunasea/notifications/animarr"
                           className="text-white transition duration-300 hover:underline"
                           target="_blank"
                           rel="noreferrer"

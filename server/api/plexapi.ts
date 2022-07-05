@@ -123,9 +123,9 @@ class PlexAPI {
       // },
       options: {
         identifier: settings.clientId,
-        product: 'Overseerr',
-        deviceName: 'Overseerr',
-        platform: 'Overseerr',
+        product: 'Animarr',
+        deviceName: 'Animarr',
+        platform: 'Animarr',
       },
     });
   }

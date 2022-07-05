@@ -5,7 +5,7 @@ import { useUser } from '../../hooks/useUser';
 import PlexLoginButton from '../PlexLoginButton';
 
 const messages = defineMessages({
-  welcome: 'Welcome to Overseerr',
+  welcome: 'Welcome to Animarr',
   signinMessage: 'Get started by signing in with your Plex account',
 });
 

@@ -17,7 +17,7 @@ import Releases from './Releases';
 
 const messages = defineMessages({
   about: 'About',
-  overseerrinformation: 'About Overseerr',
+  animarrinformation: 'About Animarr',
   version: 'Version',
   totalmedia: 'Total Media',
   totalrequests: 'Total Requests',
@@ -25,7 +25,7 @@ const messages = defineMessages({
   githubdiscussions: 'GitHub Discussions',
   timezone: 'Time Zone',
   appDataPath: 'Data Directory',
-  supportoverseerr: 'Support Overseerr',
+  supportanimarr: 'Support Animarr',
   helppaycoffee: 'Help Pay for Coffee',
   documentation: 'Documentation',
   preferredmethod: 'Preferred',
@@ -34,7 +34,7 @@ const messages = defineMessages({
   betawarning:
     'This is BETA software. Features may be broken and/or unstable. Please report any issues on GitHub!',
   runningDevelop:
-    'You are running the <code>develop</code> branch of Overseerr, which is only recommended for those contributing to development or assisting with bleeding-edge testing.',
+    'You are running the <code>develop</code> branch of Animarr, which is only recommended for those contributing to development or assisting with bleeding-edge testing.',
 });
 
 const SettingsAbout: React.FC = () => {
@@ -72,7 +72,7 @@ const SettingsAbout: React.FC = () => {
             </p>
             <p className="mt-3 text-sm leading-5 md:mt-0 md:ml-6">
               <a
-                href="http://github.com/sct/overseerr"
+                href="http://github.com/sct/animarr"
                 className="whitespace-nowrap font-medium text-indigo-100 transition duration-150 ease-in-out hover:text-white"
                 target="_blank"
                 rel="noreferrer"
@@ -84,7 +84,7 @@ const SettingsAbout: React.FC = () => {
         </div>
       </div>
       <div className="section">
-        <List title={intl.formatMessage(messages.overseerrinformation)}>
+        <List title={intl.formatMessage(messages.animarrinformation)}>
           {data.version.startsWith('develop-') && (
             <Alert
               title={intl.formatMessage(messages.runningDevelop, {
@@ -106,8 +106,8 @@ const SettingsAbout: React.FC = () => {
                 <a
                   href={
                     data.version.startsWith('develop-')
-                      ? `https://github.com/sct/overseerr/compare/${status.commitTag}...develop`
-                      : 'https://github.com/sct/overseerr/releases'
+                      ? `https://github.com/sct/animarr/compare/${status.commitTag}...develop`
+                      : 'https://github.com/sct/animarr/releases'
                   }
                   target="_blank"
                   rel="noopener noreferrer"
@@ -123,8 +123,8 @@ const SettingsAbout: React.FC = () => {
                 <a
                   href={
                     data.version.startsWith('develop-')
-                      ? 'https://github.com/sct/overseerr/commits/develop'
-                      : 'https://github.com/sct/overseerr/releases'
+                      ? 'https://github.com/sct/animarr/commits/develop'
+                      : 'https://github.com/sct/animarr/releases'
                   }
                   target="_blank"
                   rel="noopener noreferrer"
@@ -158,38 +158,38 @@ const SettingsAbout: React.FC = () => {
         <List title={intl.formatMessage(messages.gettingsupport)}>
           <List.Item title={intl.formatMessage(messages.documentation)}>
             <a
-              href="https://docs.overseerr.dev"
+              href="https://docs.animarr.dev"
               target="_blank"
               rel="noreferrer"
               className="text-indigo-500 transition duration-300 hover:underline"
             >
-              https://docs.overseerr.dev
+              https://docs.animarr.dev
             </a>
           </List.Item>
           <List.Item title={intl.formatMessage(messages.githubdiscussions)}>
             <a
-              href="https://github.com/sct/overseerr/discussions"
+              href="https://github.com/sct/animarr/discussions"
               target="_blank"
               rel="noreferrer"
               className="text-indigo-500 transition duration-300 hover:underline"
             >
-              https://github.com/sct/overseerr/discussions
+              https://github.com/sct/animarr/discussions
             </a>
           </List.Item>
           <List.Item title="Discord">
             <a
-              href="https://discord.gg/overseerr"
+              href="https://discord.gg/animarr"
               target="_blank"
               rel="noreferrer"
               className="text-indigo-500 transition duration-300 hover:underline"
             >
-              https://discord.gg/overseerr
+              https://discord.gg/animarr
             </a>
           </List.Item>
         </List>
       </div>
       <div className="section">
-        <List title={intl.formatMessage(messages.supportoverseerr)}>
+        <List title={intl.formatMessage(messages.supportanimarr)}>
           <List.Item
             title={`${intl.formatMessage(messages.helppaycoffee)} ☕️`}
           >
@@ -207,12 +207,12 @@ const SettingsAbout: React.FC = () => {
           </List.Item>
           <List.Item title="">
             <a
-              href="https://patreon.com/overseerr"
+              href="https://patreon.com/animarr"
               target="_blank"
               rel="noreferrer"
               className="text-indigo-500 transition duration-300 hover:underline"
             >
-              https://patreon.com/overseerr
+              https://patreon.com/animarr
             </a>
           </List.Item>
         </List>

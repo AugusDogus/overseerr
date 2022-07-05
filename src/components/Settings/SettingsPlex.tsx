@@ -26,7 +26,7 @@ const messages = defineMessages({
   plex: 'Plex',
   plexsettings: 'Plex Settings',
   plexsettingsDescription:
-    'Configure the settings for your Plex server. Overseerr scans your Plex libraries to determine content availability.',
+    'Configure the settings for your Plex server. Animarr scans your Plex libraries to determine content availability.',
   serverpreset: 'Server',
   serverLocal: 'local',
   serverRemote: 'remote',
@@ -47,12 +47,12 @@ const messages = defineMessages({
   enablessl: 'Use SSL',
   plexlibraries: 'Plex Libraries',
   plexlibrariesDescription:
-    'The libraries Overseerr scans for titles. Set up and save your Plex connection settings, then click the button below if no libraries are listed.',
+    'The libraries Animarr scans for titles. Set up and save your Plex connection settings, then click the button below if no libraries are listed.',
   scanning: 'Syncing…',
   scan: 'Sync Libraries',
   manualscan: 'Manual Library Scan',
   manualscanDescription:
-    "Normally, this will only be run once every 24 hours. Overseerr will check your Plex server's recently added more aggressively. If this is your first time configuring Plex, a one-time full manual library scan is recommended!",
+    "Normally, this will only be run once every 24 hours. Animarr will check your Plex server's recently added more aggressively. If this is your first time configuring Plex, a one-time full manual library scan is recommended!",
   notrunning: 'Not Running',
   currentlibrary: 'Current Library: {name}',
   librariesRemaining: 'Libraries Remaining: {count}',
@@ -65,7 +65,7 @@ const messages = defineMessages({
     'Optionally direct users to the web app on your server instead of the "hosted" web app',
   tautulliSettings: 'Tautulli Settings',
   tautulliSettingsDescription:
-    'Optionally configure the settings for your Tautulli server. Overseerr fetches watch history data for your Plex media from Tautulli.',
+    'Optionally configure the settings for your Tautulli server. Animarr fetches watch history data for your Plex media from Tautulli.',
   urlBase: 'URL Base',
   tautulliApiKey: 'API Key',
   externalUrl: 'External URL',

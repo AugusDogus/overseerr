@@ -31,7 +31,7 @@ import Transition from '../../Transition';
 const messages = defineMessages({
   logs: 'Logs',
   logsDescription:
-    'You can also view these logs directly via <code>stdout</code>, or in <code>{appDataPath}/logs/overseerr.log</code>.',
+    'You can also view these logs directly via <code>stdout</code>, or in <code>{appDataPath}/logs/animarr.log</code>.',
   time: 'Timestamp',
   level: 'Severity',
   label: 'Label',

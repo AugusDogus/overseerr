@@ -9,8 +9,8 @@ import Transition from '../Transition';
 const messages = defineMessages({
   newversionavailable: 'Application Update',
   newversionDescription:
-    'Overseerr has been updated! Please click the button below to reload the page.',
-  reloadOverseerr: 'Reload',
+    'Animarr has been updated! Please click the button below to reload the page.',
+  reloadAnimarr: 'Reload',
 });
 
 const StatusChecker: React.FC = () => {
@@ -42,7 +42,7 @@ const StatusChecker: React.FC = () => {
         iconSvg={<SparklesIcon />}
         title={intl.formatMessage(messages.newversionavailable)}
         onOk={() => location.reload()}
-        okText={intl.formatMessage(messages.reloadOverseerr)}
+        okText={intl.formatMessage(messages.reloadAnimarr)}
         backgroundClickable={false}
       >
         {intl.formatMessage(messages.newversionDescription)}

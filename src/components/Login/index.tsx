@@ -18,7 +18,7 @@ const messages = defineMessages({
   signin: 'Sign In',
   signinheader: 'Sign in to continue',
   signinwithplex: 'Use your Plex account',
-  signinwithoverseerr: 'Use your {applicationTitle} account',
+  signinwithanimarr: 'Use your {applicationTitle} account',
 });
 
 const Login: React.FC = () => {
@@ -147,7 +147,7 @@ const Login: React.FC = () => {
                         }`}
                         onClick={() => handleClick(1)}
                       >
-                        {intl.formatMessage(messages.signinwithoverseerr, {
+                        {intl.formatMessage(messages.signinwithanimarr, {
                           applicationTitle:
                             settings.currentSettings.applicationTitle,
                         })}

@@ -30,9 +30,9 @@ import logger from './logger';
 import routes from './routes';
 import { getAppVersion } from './utils/appVersion';
 
-const API_SPEC_PATH = path.join(__dirname, '../overseerr-api.yml');
+const API_SPEC_PATH = path.join(__dirname, '../animarr-api.yml');
 
-logger.info(`Starting Overseerr version ${getAppVersion()}`);
+logger.info(`Starting Animarr version ${getAppVersion()}`);
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();

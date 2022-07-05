@@ -74,8 +74,7 @@ const SearchByNameModal: React.FC<SearchByNameModalProps> = ({
               <div className="flex w-24 flex-none items-center space-x-4">
                 <img
                   src={
-                    item.remotePoster ??
-                    '/images/overseerr_poster_not_found.png'
+                    item.remotePoster ?? '/images/animarr_poster_not_found.png'
                   }
                   alt={item.title}
                   className="h-100 w-auto rounded-md"

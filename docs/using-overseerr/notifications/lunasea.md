@@ -13,5 +13,5 @@ If not using the `default` profile in the LunaSea app, specify the name of the p
 Note that the entered profile name **_must_** match the name in LunaSea exactly (including any capitalization, punctuation, and/or whitespace).
 
 {% hint style="info" %}
-Please refer to the [LunaSea documentation](https://docs.lunasea.app/lunasea/notifications/overseerr) for more details on configuring these notifications.
+Please refer to the [LunaSea documentation](https://docs.lunasea.app/lunasea/notifications/animarr) for more details on configuring these notifications.
 {% endhint %}
